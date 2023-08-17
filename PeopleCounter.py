@@ -5,7 +5,7 @@ import cv2
 import math
 from sort import *
 
-cap = cv2.VideoCapture("C:\Amirreza\ShineTech\w2\Videos\people.mp4")  # For Video
+cap = cv2.VideoCapture("people.mp4")  # For Video
 
 model = YOLO("../Running Yolo/yolov8l.pt")
 
